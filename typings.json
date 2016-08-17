@@ -1,0 +1,9 @@
+{
+  "name": "chokidar",
+  "version": "1.6.0",
+  "homepage": "https://github.com/types/npm-chokidar",
+  "main": "index.d.ts",
+  "globalDependencies": {
+    "node": "registry:env/node#6.0.0+20160813135048"
+  }
+}
