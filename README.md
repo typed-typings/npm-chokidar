@@ -11,10 +11,11 @@ typings install --save chokidar
 ## Usage
 
 ```ts
-read = gs.create('./files/**/*.coffee',  { /* options */ });
+import * as chokidar from 'chokidar';
 
-read.on('data', (file: gs.Element) => {
-  console.log(file.path, file.base, file.cwd);
+// One-liner for current directory, ignores .dotfiles
+chokidar.watch('.', { ignored: /[\/\\]\./ }).on('all', (event: string, path: string) => {
+  console.log(event, path);
 });
 
 ```
