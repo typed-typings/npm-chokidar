@@ -1,4 +1,6 @@
 # Typed chokidar
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/types/npm-chokidar.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/types/npm-chokidar.svg?branch=master)](https://travis-ci.org/types/npm-chokidar)
 
 Typescript Typings for [chokidar](https://www.npmjs.com/package/chokidar).
